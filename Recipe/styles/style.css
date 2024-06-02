@@ -1,0 +1,109 @@
+
+  .attribution {
+      font-family: 'Young Serif', serif;
+      font-size: 30px; 
+      text-align: left; 
+      color: hsl(24, 5%, 18%);
+    }
+
+    @media only screen and (max-width: 1440px) {
+      footer {
+        flex-direction: column;
+        padding: 0 10% 2rem 10%;
+        font-family: serif;
+      }
+    }
+
+
+    body {
+      background-color: hsl(30, 54%, 90%);
+      font-family: 'Outfit', sans-serif;
+      font-size: 14px;
+    }
+
+
+    #rcorners1 {
+      border-radius: 25px;
+      background-color: hsl(0, 0%, 100%);
+      padding: 20px;
+      width: 500px;
+      position: absolute;
+      display: table;
+  
+
+    }
+
+.purple {
+  font-family: 'Outfit';
+  color:  hsl(332, 51%, 32%);
+margin: 12px;
+}
+
+.prep li {
+  color: hsl(30, 10%, 34%);
+  font-size: 14px;
+
+}
+    #prep {
+      width: 480px;
+      background-color: hsl(330, 100%, 98%);
+      border-radius: 20px;
+      height: 150px
+
+   
+    }
+
+
+
+    p {
+
+      color: hsl(30, 10%, 34%)
+    }
+
+
+    hr {
+      display: block;
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+      margin-left: auto;
+      margin-right: auto;
+      border-style: inset;
+      border-width: 1px;
+    }
+
+/* Ingredients */
+.titles {
+  font-family: 'Young Serif', serif; 
+  font-size: 24px;
+  color: hsl(14, 45%, 36%)
+}
+
+li::marker {
+  color:  hsl(14, 45%, 36%);
+}
+
+ol li{ color: hsl(14, 45%, 36%);
+} 
+
+ol > li::marker {
+  font-weight: bold;
+}
+
+tr {
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th { 
+  color:hsl(14, 45%, 36%);
+}
