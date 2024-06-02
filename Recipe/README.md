@@ -15,7 +15,7 @@ This is a recipe page for an omelette recipe created using HTML and CSS.
 
 ### Screenshot
 
-![Here](Recipe/styles/OmeletteRecipe.png)
+![](styles/OmeletteRecipe.png)
 
 
 ## My process
